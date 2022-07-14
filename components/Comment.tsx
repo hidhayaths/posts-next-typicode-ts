@@ -14,7 +14,7 @@ function Comment({comment}:Props) {
             <p>{comment.name}</p>
             <p>{comment.email}</p>
         </div>
-        <div className="comment__body">
+        <div className={styles.comment__body}>
             {comment.body}
         </div>
     </div>
