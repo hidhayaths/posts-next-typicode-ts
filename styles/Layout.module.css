@@ -1,0 +1,27 @@
+.header {
+  height: 51px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  min-height: calc(100vh - 51px);
+  height: calc(100vh - 51px);
+  max-height: calc(100vh - 51px);
+  overflow-y: auto;
+}
+
+.sider {
+  background-color: #12121b;
+  padding-top: 35px;
+  padding-left: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sider + * {
+  padding: 20px;
+  background-color: #1d1a1a;
+  padding-right: 4em;
+}

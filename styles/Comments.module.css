@@ -1,0 +1,42 @@
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 10px;
+  color: #666;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+}
+
+.comment::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #36363685;
+  margin-bottom: 10px;
+}
+
+.comment__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.75rem;
+  color: #535353a4;
+}
+
+.comment__header > p {
+  margin: 0;
+  padding: 0;
+}
+
+.comment__body {
+  padding: 0px 5px;
+  text-align: justify;
+}

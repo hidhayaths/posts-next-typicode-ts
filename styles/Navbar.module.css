@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  padding: 10px 4em;
+  align-items: center;
+  justify-content: space-between;
+  background: #0f0e13;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.logo {
+  color: #fff;
+}
+
+.nav__ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__ul__li {
+  padding: 5px 10px;
+  margin: 0;
+  color: #583ba7;
+}
+
+.nav__ul__li:hover {
+  color: #6651a0;
+}
+
+.link {
+  display: block;
+  padding: 5px;
+}

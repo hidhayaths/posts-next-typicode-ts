@@ -1,0 +1,37 @@
+.container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* position: fixed; */
+}
+
+.sidenav__li {
+  margin: 0;
+  /* padding: 5px 10px; */
+}
+
+.sidenav__li__link {
+  display: block;
+  padding: 5px;
+  color: #695279;
+}
+
+.avatar__container {
+  /* padding-left: 2em; */
+  display: block;
+}
+
+.avatar__container img {
+  background-blend-mode: screen;
+}
